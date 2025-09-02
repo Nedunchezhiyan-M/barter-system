@@ -124,7 +124,7 @@ const SignupPage: React.FC<SignupPageProps> = ({ onSignup, onNavigateToLogin }) 
             <div className="hidden md:block md:w-1/2">
                 <img
                     className="w-full h-full object-cover"
-                    src="assests\login.png"
+                    src="\assests\login.png"
                     alt="Two hands exchanging goods, representing a traditional barter system"
                 />
             </div>
