@@ -6,7 +6,7 @@ export const USERS: User[] = [
     { id: 1, username: 'subi', password: '$ubi@2512', email: 'subi@gmail.com', credits: 96, avatar: 'https://picsum.photos/seed/subi/100/100' },
     { id: 2, username: 'surya', password: '$ury@1908', email: 'surya@gmail.com', credits: 96, avatar: 'https://picsum.photos/seed/surya/100/100' },
     { id: 3, username: 'nedu', password: 'nedu2!@#', email: 'nedu@gmail.com', credits: 420, avatar: 'https://picsum.photos/seed/surya/100/100' },
-    { id: 4, username: 'jessi', password: '$ury@1908', email: 'jessi@gmail.com', credits: 78, avatar: 'https://picsum.photos/seed/surya/100/100' },
+    { id: 4, username: 'jessi', password: 'jess!@0708', email: 'jessi@gmail.com', credits: 78, avatar: 'https://picsum.photos/seed/surya/100/100' },
 ];
 
 export const FEATURES: Feature[] = [
