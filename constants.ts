@@ -1,13 +1,21 @@
 
 import type { User, Feature } from './types';
-import { InvestmentIcon, NetworkingIcon, CommunityIcon, ServicesIcon, MentalHealthIcon, FitnessIcon, ProductsIcon } from './components/icons/FeatureIcons';
+import { InvestmentIcon, NetworkingIcon, CommunityIcon, ServicesIcon, MentalHealthIcon, FitnessIcon, ProductsIcon, EducationIcon } from './components/icons/FeatureIcons';
 
 export const USERS: User[] = [
     { id: 1, username: 'subi', password: '$ubi@2512', email: 'subi@gmail.com', credits: 96, avatar: 'https://picsum.photos/seed/subi/100/100' },
     { id: 2, username: 'surya', password: '$ury@1908', email: 'surya@gmail.com', credits: 96, avatar: 'https://picsum.photos/seed/surya/100/100' },
+    { id: 3, username: 'nedu', password: 'nedu2!@#', email: 'nedu@gmail.com', credits: 420, avatar: 'https://picsum.photos/seed/surya/100/100' },
+    { id: 4, username: 'jessi', password: '$ury@1908', email: 'jessi@gmail.com', credits: 78, avatar: 'https://picsum.photos/seed/surya/100/100' },
 ];
 
 export const FEATURES: Feature[] = [
+    {
+        id: 'education',
+        title: 'Educational Services',
+        description: 'Access and offer tutoring, online courses, and educational resources. BarterStreet enables users to trade knowledge and learning opportunities, making education more accessible and collaborative within the community.',
+        icon: EducationIcon
+    },
     {
         id: 'investment',
         title: 'Investment Features',
@@ -49,5 +57,5 @@ export const FEATURES: Feature[] = [
         title: 'Products',
         description: 'Browse and trade physical goods. From handmade crafts to electronics, find what you need or list your own items for trade. BarterStreet connects you with a marketplace of products, expanding the possibilities beyond just services.',
         icon: ProductsIcon,
-    },
+    }
 ];
